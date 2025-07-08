@@ -13,8 +13,21 @@ background-position: top left,bottom right ;
 
 }
 /*shared styles*/
+.secondary-bg{
+    background: color #fff8f3; 
+}
 .text-primary{
 color:#FD6E0A;
+}
+.section-title{
+    font-size: 50;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 18;
+    color: #757575;
 }
 
 .dark-2{
@@ -73,5 +86,30 @@ nav ul{
 .banner-image{
     width: 580px;
 }
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+  margin-top: 140px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600px;
+
+}
+.item-title{
+    text-align: center;
+}
+
 
 
